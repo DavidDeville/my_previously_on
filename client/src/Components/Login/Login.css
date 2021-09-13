@@ -1,0 +1,24 @@
+.LoginContainer {
+    position: relative;
+    top: 8px;
+}
+
+.login_form {
+    margin-left: auto;
+    float: right;
+    position: relative;
+}
+
+.nickname_input {
+    margin-left: -20px !important;
+    padding-left: 5px !important;
+}
+
+.password_input {
+    padding-left: 5px !important;
+}
+
+.button_input {
+    margin-left: 20px !important;
+    padding: 5px !important;
+}

@@ -1,0 +1,34 @@
+.show_manager_header {
+    width: 66vw;
+}
+
+@media screen and (max-width: 576px) {
+  .show_manager_header {
+      width: 100%;
+  }
+}
+
+.season_details {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.season_image {
+  /*width: 80%;*/
+  width: 340px;
+  height: 500px;
+  margin-left: 20px;
+}
+
+.season_number {
+  text-align: center;
+  border-color: #6c757d;
+  border-radius: 0.25rem;
+  display: block;
+  padding: 5px !important;
+  background-color: #6c757d;
+  color: white;
+  margin-left: 20px;
+}

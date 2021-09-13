@@ -1,0 +1,71 @@
+.episode_details_box {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 576px) {
+    .episode_details_box {
+        display: flex;
+        flex-direction: column;
+    }
+    .episode_img {
+        display: block;
+        width:90%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+  }
+
+.episode_details_design {
+    border: 1px solid transparent;
+    border-color: #6c757d;
+    border-radius: .25rem;
+    display: block;
+    padding: 5px !important;
+    background-color: #6c757d;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.episode_infos {
+    margin-left: 30px;
+}
+
+.back_button {
+    margin-top: 10px;
+}
+
+.details_button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.netflix_button {
+    margin-left: 10px;
+}
+
+.netflix_button_style {
+    background-color: white;
+    color: red;
+}
+
+.netflix_button_style:hover {
+    background-color: lightblue;
+    color: red;
+}
+
+.netflix_button_style:active {
+    background-color: lightblue;
+    color: red;
+}
+
+.comment_episode_form {
+    margin-left: 10px;
+}
+
+.sent_comment_warning {
+    color: darkblue;
+}

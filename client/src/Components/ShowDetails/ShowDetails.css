@@ -1,0 +1,29 @@
+.testo {
+    width: 66vw;
+}
+
+@media screen and (max-width: 576px) {
+    .testo {
+        width: 100%;
+    }
+}
+
+.show_genres {
+    display: inline;
+    font-style: italic;
+}
+
+.show_details {
+    margin-left:10px;
+}
+
+.show_design {
+    border: 1px solid transparent;
+    border-color: #6c757d;
+    border-radius: .25rem;
+    display: inline-block;
+    padding: 5px !important;
+    background-color: #6c757d;
+    color: white;
+    margin-bottom: 10px;
+}

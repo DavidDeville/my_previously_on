@@ -1,0 +1,51 @@
+.testooo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.episodes_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.episode_picture {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.episode_picture_blur {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    filter: blur(10px);
+    overflow: hidden;
+    height: 200px;
+}
+
+.episode_design {
+    border: 1px solid transparent;
+    border-color: #6c757d;
+    border-radius: .25rem;
+    display: block;
+    padding: 5px !important;
+    background-color: #6c757d;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 350px;
+}
+
+.episode_design_header {
+    border: 1px solid transparent;
+    border-color: #6c757d;
+    border-radius: .25rem;
+    display: block;
+    padding: 5px !important;
+    background-color: #6c757d;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 100%;
+}

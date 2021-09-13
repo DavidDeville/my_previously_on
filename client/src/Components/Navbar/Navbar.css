@@ -1,0 +1,22 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.NavbarContainer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 10px;
+    padding: 0px 10px !important;
+}
+
+.login_form {
+    margin-top: 10px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.text-muted {
+    height: 50px;
+}

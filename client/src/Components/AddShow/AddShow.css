@@ -1,0 +1,8 @@
+.suggestion {
+    margin-left: 10px;
+}
+
+.suggestion_shows {
+    display: flex;
+    list-style-type: none;
+}
